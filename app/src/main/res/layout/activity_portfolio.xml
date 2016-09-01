@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.refat.home.Portfolio"
+    android:background="#afb0bb"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Project"
+        android:id="@+id/textView10"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fbf9f9"
+        android:textSize="10sp"
+        android:background="#8b5ebf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Bengali Sign Language Conversion"
+        android:id="@+id/textView11"
+        android:textColor="#fbf9f9"
+        android:background="#c28dd7"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView7"
+        android:src="@drawable/o" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The objective of my project was translate ....."
+        android:id="@+id/textView12"
+        android:textIsSelectable="false"
+        android:textSize="8sp"
+        android:textColor="#fbf9f9"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Continue"
+        android:id="@+id/button4"
+        android:layout_gravity="right"
+        android:textSize="8sp"
+        android:textColor="#86398d"
+        android:textStyle="bold"
+        android:onClick="bengali" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Online Shopping Ecommerce"
+        android:id="@+id/textView13"
+        android:textColor="#fbf9f9"
+        android:textSize="10sp"
+        android:background="#c28dd7" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView8"
+        android:src="@drawable/ss" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My website was about Online Shopping which name was...."
+        android:id="@+id/textView14"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fbf9f9"
+        android:textSize="8sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Continue"
+        android:id="@+id/button5"
+        android:layout_gravity="right"
+        android:textSize="8sp"
+        android:textColor="#86398d"
+        android:textStyle="bold"
+        android:onClick="online" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="75dp"
+        android:layout_height="30dp"
+        android:text="Next Page"
+        android:id="@+id/button6"
+        android:layout_gravity="right"
+        android:textSize="8sp"
+        android:textColor="#86398d"
+        android:onClick="next"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.refat.home.NextPage"
+    android:background="#afb0bb"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Project"
+        android:id="@+id/textView15"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fbf9f9"
+        android:textSize="10sp"
+        android:background="#8b5ebf" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Online Coffee Shop Ecommerce"
+        android:id="@+id/textView16"
+        android:background="#c28dd7"
+        android:textColor="#fbf9f9"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/ocs" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is my website which was about Online..."
+        android:id="@+id/textView17"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fbf9f9"
+        android:textSize="8sp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Continue"
+        android:id="@+id/button7"
+        android:layout_gravity="right"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:textColor="#86398d"
+        android:onClick="coffee" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Celsius to Farenheight &amp; Farenheight to Celsius Converter"
+        android:id="@+id/textView18"
+        android:background="#c28dd7"
+        android:textColor="#fbf9f9"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView10"
+        android:src="@drawable/temp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is my first android app which is ......"
+        android:id="@+id/textView19"
+        android:layout_gravity="center_horizontal"
+        android:textSize="8sp"
+        android:textColor="#fbf9f9" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:text="Continue"
+        android:id="@+id/button8"
+        android:layout_gravity="right"
+        android:textColor="#86398d"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        android:onClick="temparature" />
+</LinearLayout>

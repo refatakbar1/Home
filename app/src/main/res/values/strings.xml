@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Refat</string>
+    <string name="conttent">
+        I am Refat Akbar.I have completed my graduation in Computer Science and Engineering
+        from United International University(UIU)on October, 2015 bearing CGPA
+        3.59 on a scale of 4.I passed SSC 2010 from Mohammadpur girls High School
+        and HSC from Mohammadpur Preparatory Girls College with GPA 5.I like to reading book,writing,
+        Singing and painting.I have been a competent student with having programming language skill
+        like JAVA,  HTML5, CSS3, JAVASCRIPT, ANDROID,C etc. I have also done a course on android and graphics
+        design. I have experience to go thorough Database like MySQL  as
+        well as technical tools like Eclips,Android Studio,Netbeans,Visual Studio etc. during my academic
+        curriculum.I have attached my work experience in my portfolio.
+
+
+
+
+    </string>
+    <string name="bengali">
+        The objective of my project was translate signs to letter.So that deaf people
+        language to be understood by the people out of deaf community.I work on this project
+        only translate Bengali langauge.I build a tool for the people who is unable to hear and speak.
+        My system is one kind of bridge between deaf,dumb and normal people.My system is cost effective.
+        So that the poor background people may also use my system.I applied technical tools Matlab and Visual  Studio for
+        build my project.The whole project was divided into 8 step which was Feature Extraction,Image Processing,
+        Segmentation,Database,Recognition,Experimental Results and Analysis,Classification and the last one was Conclusion.
+        I have used K-nearest neighbor algorithm in classification step which give the output which dataset is nearest.
+        After all of these process completing I was calculated the accuracy of matching image.And I got 75 percent matching
+        image accuracy.
+    </string>
+    <string name="online">
+          My website was about online shopping which name was Collection.Nowadays online shopping
+        is so popular.It is too much tough for busy people to get enough time for shopping.So for
+        this purpose I have decided to make a project about online shopping so people can easily buy
+        their necessary products.To build my online project I applied technical tools Netbeans  with database
+        MySql.I used the code HTML5,CSS3,PHP,JAVASCRIPT and Bootstrap to develop my website.I used javascript
+        to made image slideshow.I also applied javascript in order page.It is my first website with database,
+        mysql,php,javascript.I hope I will build a better website than this in future.
+
+        </string>
+    <string name="coffee">
+        This is my website which was about Online Coffee Shop.It was just like cafeteria website.
+        In this website I keep a menu option where different type of flavoured coffees existed.
+        People can be register and they can also login in my website.And they can order any kind of
+        flavoured coffee whatever they want.I used Netbeans as a technical tools.I applied HTML5,
+        CSS3 and JAVASCRIPT.
+    </string>
+    <string name="temparature">
+        This is my first android app which is convert any  number Celsius to Farenheight
+        or Farenheight to Celsius.This is my first android app.My app is only convert integer
+        number.In my app user can take input by help of some button.And there are 2 button.
+        One is for convert input number Celsius to Farenheight and another is for convert the number
+        Farenheight to Celsius.
+
+</string>
+</resources>
